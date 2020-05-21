@@ -92,6 +92,7 @@ public class SudokuGUI extends JFrame {
 		setSize(466, 550);
 		setLocation(800, 300);
 		setResizable(false);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setVisible(true);
 	}
 
